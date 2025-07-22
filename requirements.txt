@@ -1,0 +1,11 @@
+faiss-cpu==1.10.0
+fastapi==0.115.11
+huggingface-hub==0.29.1
+openai==1.65.2
+requests==2.32.3
+sentence-transformers==3.4.1
+streamlit==1.42.2
+torch==2.6.0
+tqdm==4.67.1
+transformers==4.49.0
+uvicorn==0.34.0

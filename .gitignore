@@ -1,0 +1,35 @@
+# Ignore environment & system files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Ignore virtual environments
+venv/
+env/
+claim-approver/
+
+# Ignore datasets (if not public)
+data/*.csv
+data/*.json
+
+# Ignore model files (if too large)
+models/*.index
+models/*.npy
+models/*.bin
+models/*.pt
+models/*.ckpt
+
+# Ignore OpenAI API keys & sensitive config
+config.json
+app/config.py
+.env
+
+# Ignore dependencies installed locally
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
